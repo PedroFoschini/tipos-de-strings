@@ -10,7 +10,7 @@ public class Main{
         boolean diferente = !palavra.equals("Bob Esponja");
 
         //Demonstração de sensitive case, a palavra é a mesma, mas o resultado é "false" pois a frase está em minúsculo(Lower Case)
-        //boolean resposta = palavra.equals("peppa pig");
+        boolean resposta = palavra.equals("peppa pig");
 
         //Demonstração para ignorar as letras maiúsculas(Upper Case) da String "palavra" e retornar "true"
         //boolean resposta = palavra.equalsIgnoreCase("peppa pig");
